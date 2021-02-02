@@ -1,43 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion house website</title>
+
+  <!--css link of bootsrtap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!--font style link-->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!--css link -->
+<link rel="stylesheet" href="style.css">
+
+<!--icon link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 <body>
 
-
-    <!--navbar-->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid ">
-        
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand mt-lg-3 ms-lg-5" href="#"><img class ="w-50 img-fluid" src="images/Group 33072.png" alt="image of the logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="page-nav collapse navbar-collapse mt-3" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--hero section of the website-->
+
+  <div class="container ms-5 mt-5">
+    <div class="row d-flex align-items-center">
+
+      
+      <div class=" col-6">
+        <div class="hero-text-section">
+          <h1>BE THE PENGUNS </h1>
+          <h2>OF WINTER</h2>
+          <p class="lh-3 mt-4">loren ispum is simply the dummy text of the <br>
+          and typesetting industry</p>
+          <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 "> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+  
+  
         </div>
       </div>
-    </nav>
+      <div class="col-6">
+        <div class="hero-img-section col-6">
+          <img class= "w-100 img-fluid" src="images/Group 33102.png" alt="image of the model of our website">
+        </div>
+      </div>
 
+    </div>
+  </div>
 
+  <!--Man jacket section-->
+  <div class="container-fluid ms-5 mt-5">
     
+    <div class="row women-proudct-section-heading">
+      <h3>WOMEN JACKET</h3>
+      
+    </div>
+  </div>
+  <div class="container">
+    <div class="card-group">
+      <div class="card ms-3 d-flex flex-column align-items-center justify-content-center">
+        <img class= "w-50" src="images/PngItem_2597366 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title women-product-section-product-name">Yellow coat jacket</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <span class="float-start mt-2 women-product-section-footer"><i class="bi bi-file-code"></i> 234</span>
+            <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 float-end"> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+        </div>
+      </div>
+      <div class="card ms-3 flex-column align-items-center">
+        <img  class ="w-75"src="images/SeekPng 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title women-product-section-product-name">Ladies jacket</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <span class="float-start mt-2 women-product-section-footer"><i class="bi bi-file-code"></i>234</span>
+            <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 float-end"> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+          
+        </div>
+      </div>
+      <div class="card ms-3 flex-column align-items-center">
+        <img class ="w-50" src="images/image 15.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title women-product-section-product-name"> Women leather jacket</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even .This is me sHahid khan handling text</p>
+         
+            <span class="float-start mt-2 women-product-section-footer"> <i class="bi bi-file-code"></i>234</span>
+            <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 float-end"> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-
-    <!--js file link -->
-
+  <div class="container-fluid ms-5 mt-5">
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <div class="row women-proudct-section-heading">
+      <h3>MEN JACKET</h3>
+      
+    </div>
+  </div>
+  <div class="container">
+    <div class="card-group">
+      <div class="card ms-3 d-flex flex-column align-items-center justify-content-center">
+        <img class= "w-50" src="images/PngItem_2597366 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title women-product-section-product-name">Yellow coat jacket</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <span class="float-start mt-2 women-product-section-footer"><i class="bi bi-file-code"></i> 234</span>
+            <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 float-end"> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+        </div>
+      </div>
+      <div class="card ms-3 flex-column align-items-center">
+        <img  class ="w-75"src="images/SeekPng 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title women-product-section-product-name">Ladies jacket</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <span class="float-start mt-2 women-product-section-footer"><i class="bi bi-file-code"></i>234</span>
+            <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 float-end"> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+          
+        </div>
+      </div>
+      <div class="card ms-3 flex-column align-items-center">
+        <img class ="w-50" src="images/image 15.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title women-product-section-product-name"> Women leather jacket</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even .This is me sHahid khan handling text</p>
+         
+            <span class="float-start mt-2 women-product-section-footer"> <i class="bi bi-file-code"></i>234</span>
+            <button type="button" class="btn btn-primary rounded-3 hero-section-button px-3 float-end"> <i class="bi bi-cart-check me-2 "></i>Buy Now</button>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-6">
+        <div class="footer-contact d-flex flex-column ">
+          <div class="footer-contact-first-part d-flex align-items-center">
+            <img  class ="w-25" src="images/image 12.png" alt="image of the Product">
+            <div class="footer-contact-second-part d-flex flex-column ms-3">
+              <h4>Find the perfect feet</h4>
+              <p>Everybody is different thats why <br>we offer different kind of dress for everyone</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="footer-contact d-flex flex-column ">
+          <div class="footer-contact-first-part d-flex align-items-center">
+            <img  class ="w-25" src="images/image 14.png" alt="image of the Product">
+            <div class="footer-contact-second-part d-flex flex-column ms-3">
+              <h4>Find the perfect feet</h4>
+              <p>Everybody is different thats why <br>we offer different kind of dress for everyone</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="footer-contact d-flex flex-column ">
+          <div class="footer-contact-first-part d-flex align-items-center">
+            <img  class ="w-25" src="images/image 13.png" alt="image of the Product">
+            <div class="footer-contact-second-part d-flex flex-column ms-3">
+              <h4>Find the perfect feet</h4>
+              <p>Everybody is different thats why <br>we offer different kind of dress for everyone</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-6">
+        <img  class ="w-100 mt-5" src="images/XMLID 1.png" alt="image of the shoping card">
+      </div>
+
+     
+    </div>
+  </div>
+
+  
+
+
+
+  <!--js link file-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  
 </body>
 </html>
+    
+
+    
+
+
+    
+
+
+
+    
+
+    
+    

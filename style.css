@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.page-nav {
+    font-size: 20px;
+}
+.page-nav a {
+    color: #FFFF;
+}
+.hero-text-section  h1 {
+    color: #FABE4C;
+    font-weight: bolder;
+
+}
+.hero-text-section h2 {
+    color:#030941;
+    font-weight: bolder;
+}
+.hero-text-section p {
+    color :#363958;
+    font-size: 16px;
+}
+.hero-section-button {
+    background-color:#A4BC46;
+    border:#A4BC46;
+}
+.hero-section-button:hover {
+    background-color: #A4BC46;
+}
+.women-proudct-section-heading h3{
+    color: #363958;
+    font-weight: bolder;
+}
+.women-product-section-product-name {
+    color:#363958;
+    font-weight: bolder;
+}
+.women-product-section-footer {
+    color:#FABE4C;
+}
+.footer-contact-second-part h4 {
+    color:#363958;
+    font-weight: bolder;
+}
